@@ -1,0 +1,13 @@
+name = "Animalia Exotica"
+filename = "animalia-neoforge-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/y4635ED6/versions/HQoh2NIv/animalia-neoforge-1.21.1-1.0.3.jar"
+hash-format = "sha512"
+hash = "aff586d12c98e25959a5c01bb96338e5f0ef983e0a7da1351bbc34efb2056dbd2a79ab976de3d78c08a3352e8fe8cbc38a7dee123a0c408d0fecbb9f704a2d08"
+
+[update]
+[update.modrinth]
+mod-id = "y4635ED6"
+version = "HQoh2NIv"

@@ -1,0 +1,13 @@
+name = "Vermishell"
+author = "Mykhailo Dvali"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a13835ee965de0c077be8a2664c9fc7b7a99b5f5cf1dfb3069f24ee1a9863fc8"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.251"

@@ -1,0 +1,13 @@
+name = "Hybrid API [HAPI]"
+filename = "hapi-neoforge-1.21.1-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yv9f5EAG/versions/9d3wvikP/hapi-neoforge-1.21.1-1.1.2.jar"
+hash-format = "sha512"
+hash = "faba7a389485416738cf9087a0618bd6a4e16b4e8ba15ce3cf05cb1128b2bb3471acd5a410ac070c2f278d12d5f72ad55110933f19680243ec7f5c9015fb5fd7"
+
+[update]
+[update.modrinth]
+mod-id = "yv9f5EAG"
+version = "9d3wvikP"

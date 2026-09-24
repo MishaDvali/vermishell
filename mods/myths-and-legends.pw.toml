@@ -1,0 +1,13 @@
+name = "Myths & Legends"
+filename = "mythsandlegends-1.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JzgNbcKE/versions/2NH5jBAD/mythsandlegends-1.0.7.jar"
+hash-format = "sha512"
+hash = "ac35c046a0002a68e60fcec63de73cc7668ad2c076b1e0db69fee894158f422c44d4c9f813f58867e0b99550efe1eef6c419935f2807483f903f1f8cf4d05cf1"
+
+[update]
+[update.modrinth]
+mod-id = "JzgNbcKE"
+version = "2NH5jBAD"

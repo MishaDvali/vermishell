@@ -1,0 +1,12 @@
+.git/
+.github/
+.tools/
+.runtime/
+docs/
+scripts/
+.gitignore
+README.md
+CHANGELOG.md
+*.mrpack
+*.zip
+*.log

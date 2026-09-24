@@ -1,0 +1,13 @@
+name = "Packed Packs"
+filename = "packed_packs-neoforge-2.3.0-beta.1+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8Pq6Exn2/versions/zgiGDSad/packed_packs-neoforge-2.3.0-beta.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "c3aae89fd9fd5df19e99b100fceda5d9627794be7914c37aeab4adba3e2ee9b4ddf317445b9ae78249ed14bf8c1a32af5c05b1fcd7fe3167083a92df1c792819"
+
+[update]
+[update.modrinth]
+mod-id = "8Pq6Exn2"
+version = "zgiGDSad"

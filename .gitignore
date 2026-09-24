@@ -1,0 +1,9 @@
+.tools/
+.runtime/
+.packwiz-cache/
+*.mrpack
+*.zip
+*.log
+.idea/
+.vscode/
+

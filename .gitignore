@@ -4,6 +4,6 @@
 *.mrpack
 *.zip
 *.log
+dist/
 .idea/
 .vscode/
-

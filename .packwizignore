@@ -4,9 +4,11 @@
 .runtime/
 docs/
 scripts/
+profiles/
 .gitignore
 README.md
 CHANGELOG.md
 *.mrpack
 *.zip
 *.log
+dist/

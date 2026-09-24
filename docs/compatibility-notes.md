@@ -27,3 +27,14 @@ Iris and Sodium are intentionally pinned instead of following the newest beta li
 - Create Aeronautics and Sable should be tested together before a persistent world is created.
 - The full YUNG structure suite plus Dungeons and Taverns may create excessive structure density; test with a disposable world first.
 - WWOO, Oh The Biomes We've Gone, Larion, Continents, and Streams Reflowing all affect world generation. Treat the first generated world as disposable until their interaction and performance are checked.
+
+## First dedicated-server smoke test
+
+The initial NeoForge 21.1.251 server launch completed successfully, generated a disposable world, opened port 25565, and shut down cleanly. Initial loading took about 150 seconds because the terrain stack performs first-world analysis and spawn generation.
+
+Non-fatal warnings to revisit during gameplay testing:
+
+- Deeper and Darker: Spellbooks references a missing `darkermagic:whispers_staff` item in an enchantability tag.
+- Caverns & Chasms contributes armor-trim advancement criteria that do not match Minecraft's generated completion requirements.
+- Attract to Sound, Legendary Monsters, and Myths & Legends probe some client classes during dedicated-server mixin discovery; NeoForge rejected those client targets but continued successfully.
+- Several world-generation mods report missing or placeholder tags/data-map entries. The world still generated, but structure, biome, and progression behavior should be checked before keeping a permanent world.

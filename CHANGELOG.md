@@ -7,3 +7,4 @@
 - Added local server bootstrap and synchronization scripts.
 - Completed the first dedicated-server startup and disposable-world smoke test.
 - Added reproducible Base, Optimized, QoL, Immersive, and Complete client exports.
+- Added hash-verified materialization of launcher-independent client folders.

@@ -18,6 +18,7 @@ Minecraft 1.21.1 / NeoForge 21.1.251 modpack and dedicated-server definition man
 .\scripts\sync-server.ps1
 .\scripts\start-server.ps1
 .\scripts\export-client-packs.ps1
+.\scripts\materialize-client-folders.ps1
 ```
 
 Run `packwiz refresh` after changing tracked configuration files. Add and update mods through Packwiz so exact downloads and hashes remain reproducible.
@@ -35,3 +36,5 @@ Run `scripts/export-client-packs.ps1` to create five cumulative Modrinth packs i
 5. **Complete**: Immersive plus every remaining client utility.
 
 Friends can import a generated `.mrpack` using Prism Launcher's **Add Instance → Import** or the Modrinth App. Profile membership lives in `profiles/client-profiles.json`; the export script refuses to build if a client-only mod is unclassified or listed twice.
+
+For launchers without `.mrpack` support, run `scripts/materialize-client-folders.ps1` after exporting. It downloads and verifies the files referenced by each `.mrpack`, producing ordinary folders under `.runtime/client-folders/`. These folders contain mods and overrides only; Minecraft and NeoForge binaries are never bundled.

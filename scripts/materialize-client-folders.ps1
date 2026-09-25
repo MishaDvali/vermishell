@@ -87,6 +87,9 @@ foreach ($pack in $packs) {
 
         $position = 0
         foreach ($file in $manifest.files) {
+            if ($file.env -and [string]$file.env.client -eq 'unsupported') {
+                continue
+            }
             $position++
             $relative = ([string]$file.path).Replace('/', [IO.Path]::DirectorySeparatorChar)
             $target = [IO.Path]::GetFullPath((Join-Path $targetRoot $relative))

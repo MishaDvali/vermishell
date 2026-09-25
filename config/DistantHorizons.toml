@@ -1,0 +1,4 @@
+[common.worldGenerator]
+	# WWOO is incompatible with Distant Horizons' synthetic distant-world generator.
+	# LODs are still created for chunks that Minecraft or Chunky has actually generated.
+	generatorPlan = "DISABLED"

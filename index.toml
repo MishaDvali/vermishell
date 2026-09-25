@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "6f8576862ebb49931f47be8a5337fcf548348882c013e281274bc760bf16f5f4"
+
+[[files]]
 file = "mods/alterna.pw.toml"
 hash = "9dcee36837741650853e785cf348564dec97ef261bdddd30cf6e1120cdfefc33"
 metafile = true
@@ -92,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+hash = "68cc51e721e993a8b7a2cbaf45369933b22b07a9c82327ab14757ee10684aa81"
 metafile = true
 
 [[files]]

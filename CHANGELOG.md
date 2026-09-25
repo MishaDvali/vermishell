@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4 - Distant Horizons compatibility defaults
+
+- Disabled Distant Horizons' distant terrain generator so WWOO terrain is only processed from real, generated chunks.
+- Moved Chunky to the server side; clients no longer load it, and server pregeneration should not run concurrently with Distant Horizons processing.
+- Switched the dedicated server from G1 GC to Generational ZGC to avoid Distant Horizons' garbage-collector warning and reduce long collection pauses.
+
 ## 0.1.3 - Field Guide dependency fix
 
 - Pinned Item Descriptions `2.8.0+1.21.1-neoforge`, replacing the incorrectly selected `1.11+1.21` build required by Field Guide.

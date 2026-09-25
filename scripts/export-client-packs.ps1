@@ -7,6 +7,7 @@ $projectRoot = Split-Path -Parent $PSScriptRoot
 $packwiz = Join-Path $projectRoot '.tools\packwiz.exe'
 $profileFile = Join-Path $projectRoot 'profiles\client-profiles.json'
 $distDir = Join-Path $projectRoot 'dist'
+$cacheDir = Join-Path $projectRoot '.runtime\packwiz-cache'
 
 if (-not (Test-Path -LiteralPath $packwiz)) { throw 'Project-local Packwiz was not found.' }
 if (-not (Test-Path -LiteralPath $profileFile)) { throw 'Client profile configuration was not found.' }
@@ -37,6 +38,7 @@ if ($unclassified.Count -gt 0) {
 }
 
 New-Item -ItemType Directory -Path $distDir -Force | Out-Null
+New-Item -ItemType Directory -Path $cacheDir -Force | Out-Null
 $included = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
 $checksums = [System.Collections.Generic.List[string]]::new()
 
@@ -76,7 +78,7 @@ foreach ($tier in $config.tiers) {
             if ($LASTEXITCODE -ne 0) { throw "Packwiz refresh failed for $($tier.id)." }
 
             $output = Join-Path $distDir ("Vermishell-$version-$($tier.id).mrpack")
-            & $packwiz modrinth export --output $output
+            & $packwiz --cache $cacheDir modrinth export --output $output
             if ($LASTEXITCODE -ne 0) { throw "Packwiz export failed for $($tier.id)." }
         } finally {
             Pop-Location

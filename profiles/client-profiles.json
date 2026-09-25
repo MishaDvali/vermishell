@@ -4,7 +4,10 @@
     {
       "id": "base",
       "displayName": "Base",
-      "add": []
+      "add": [
+        "immersive-overlays.pw.toml",
+        "item-descriptions.pw.toml"
+      ]
     },
     {
       "id": "optimized",
@@ -55,7 +58,8 @@
       "id": "complete",
       "displayName": "Complete",
       "add": [
-        "freecam.pw.toml"
+        "freecam.pw.toml",
+        "omnidirectional-movement.pw.toml"
       ]
     }
   ]

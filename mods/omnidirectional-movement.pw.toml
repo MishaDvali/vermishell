@@ -1,0 +1,13 @@
+name = "Omnidirectional Movement"
+filename = "omni-1.2-OVERHAUL+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/FK8ma0OQ/versions/BnnlX11f/omni-1.2-OVERHAUL%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "e2cc80197a7c71e73b90a82230d9879b9eb5087b660cea49f281476634c331236de733a24fe1eb9634f253d3db9473171b1d422f6c5d4ce4be48e42b3600642c"
+
+[update]
+[update.modrinth]
+mod-id = "FK8ma0OQ"
+version = "BnnlX11f"

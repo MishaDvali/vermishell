@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.1 - Combat, exploration, and rendering update
+
+- Replaced Better Combat with Epic Fight and added compatibility mappings for Cataclysm, Iron's Spells, Supplementaries, and Farmer's Delight.
+- Added L_Ender's Cataclysm, Field Guide, and their required dependencies.
+- Added Distant Horizons to clients and the server so explored LOD data can be generated and streamed.
+- Added Omnidirectional Movement to the Complete client edition.
+- Updated Sodium to 0.8.13 and Iris to 1.8.14 beta 1 to satisfy the Veil/Sable rendering stack.
+- Kept Better Third Person as the pack's third-person controller; Leawind's Third Person remains excluded to avoid overlapping camera controls.
+
 ## 0.1.0 - Initial test build
 
 - Initialized Minecraft 1.21.1 / NeoForge 21.1.235 Packwiz project.

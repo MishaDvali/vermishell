@@ -11,18 +11,23 @@
 - **The Beyond**: the intended End overhaul is still marked early-access/in-development, so it is held out of the first baseline. The similarly named Beyond Storage Addon and Beyond Dimensions are not substitutes and were removed.
 - **Opposing Force**: the available 1.21.1 build is beta and requires Sinew, which is not published alongside it on Modrinth. Held out until that dependency chain is reproducible.
 - **Sleep Most**: no matching Modrinth project was found under that exact name.
+- **Cover Them in Armor**: the official project currently has Forge releases for Minecraft 1.20.1 and 1.19.2, but no Minecraft 1.21.1 NeoForge build. It is marked incompatible and excluded.
+- **Leawind's Third Person**: excluded because Better Third Person is already the selected third-person controller. Installing both would duplicate camera controls; swap them for testing rather than stacking them.
 - **Better Statistics Screen**, **Zoomify**, **Status Effect Bars**, **Paginated Advancements**, **Reacharound**, **More Cloud Layers**, **Presence Footsteps**, and **Punchy**: no compatible Minecraft 1.21.1 NeoForge release was found during the initial import.
 
 ## Pinned compatibility pairs
 
-- Iris Shaders `1.8.12+1.21.1-neoforge`
-- Sodium `mc1.21.1-0.6.13-neoforge`
+- Iris Shaders `1.8.14-beta.1+1.21.1-neoforge`
+- Sodium `mc1.21.1-0.8.13-neoforge`
 - NeoForge `21.1.251`
 
-Iris and Sodium are intentionally pinned instead of following the newest beta line. Create/Flywheel/Iris compatibility must be rechecked before updating any member of that rendering stack.
+Iris is intentionally pinned to its 1.8.14 beta because it is the NeoForge 1.21.1 build that supports Sodium 0.8. Sodium 0.8.13 is required by the current Veil/Sable/Supplementaries/More Culling stack. Create/Flywheel/Iris compatibility must be rechecked before updating any member of this rendering stack.
 
 ## Testing cautions
 
+- Epic Fight replaces Better Combat. Do not reinstall Better Combat unless Epic Fight and its compatibility add-ons are removed first.
+- Distant Horizons is installed on both client and server. It works client-only, but the server installation lets it generate and stream LOD data; monitor first-generation CPU, memory, disk, and network use.
+- Omnidirectional Movement is confined to the Complete client edition. Check its movement and lock-on behavior with Epic Fight before recommending Complete as the default.
 - IceAndFire Community Edition currently uses its available beta line for 1.21.1.
 - Create Aeronautics and Sable should be tested together before a persistent world is created.
 - The full YUNG structure suite plus Dungeons and Taverns may create excessive structure density; test with a disposable world first.

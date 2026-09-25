@@ -1,12 +1,12 @@
 name = "Vermishell"
 author = "Mykhailo Dvali"
-version = "0.1.0"
+version = "0.1.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a13835ee965de0c077be8a2664c9fc7b7a99b5f5cf1dfb3069f24ee1a9863fc8"
+hash = "10001316aced848f71370544c945cc7b54d110446640a0bd028c52e9589af73c"
 
 [versions]
 minecraft = "1.21.1"

@@ -46,11 +46,6 @@ hash = "66072270b6fc6d6caefc88ae9ae099ec80d32d1ceda02961b42a637daf1a55f5"
 metafile = true
 
 [[files]]
-file = "mods/better-combat.pw.toml"
-hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
-metafile = true
-
-[[files]]
 file = "mods/better-third-person.pw.toml"
 hash = "e1f1588b18947699ddc9b4f7c5b5406c5559155b8cb52dcd0f203c07c31cd0b8"
 metafile = true
@@ -201,6 +196,11 @@ hash = "c4fb5bf78ad912a20ff50767f4e5cb64fd84f04d58db0c79bc728b643acc4038"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "6d3e312dbf8db12dd1b6fb3bd1d29f210ab48024a0b2ebdf02fd32c265955c5d"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
 hash = "b9244dca740d333c22f3425991fdd2fd40d3ae12384079a40a6fb7d4bca18a18"
 metafile = true
@@ -208,6 +208,21 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "30d6875d934c57d5827f29f35ca77efc72a21df361ad3d578b93e7e137a39654"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-mod-compat.pw.toml"
+hash = "8f37f2db270c1256e91395300d301ce0a31bb079bec24800bb476d08498b870e"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-weapons-compat.pw.toml"
+hash = "3fe7eadb7db5ba61b3f7a9c1618d2eddde006baa8e803576c27babc5c8fefb16"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight.pw.toml"
+hash = "8f25f6d5023d533e0d70b0375c36c176445251f431a9c8ebd63cf7f63e4c31da"
 metafile = true
 
 [[files]]
@@ -228,6 +243,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/field-guide.pw.toml"
+hash = "31d4a64fbb94657d32294c27a494182ae7f4476ee19e579982c4cd9cd89ebb18"
 metafile = true
 
 [[files]]
@@ -286,13 +306,18 @@ hash = "2863a3b187723e1f69ed2ad2b2c3d834e8442468a1347c80df5b310e243c8753"
 metafile = true
 
 [[files]]
+file = "mods/immersive-overlays.pw.toml"
+hash = "6d388e2683c099533446b6e029b90c15b14ca98e019085d56fa9533ffe11c603"
+metafile = true
+
+[[files]]
 file = "mods/iris-flw-compat.pw.toml"
 hash = "ed85b2ed42beb6523223eef6f0ae397ed29f8059b2bf5aa08d8598de04865614"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
@@ -303,6 +328,11 @@ metafile = true
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
+metafile = true
+
+[[files]]
+file = "mods/item-descriptions.pw.toml"
+hash = "b902e2a8d9a070dec6136632ea901f2bcb7185c41554d08128f377a1825ed495"
 metafile = true
 
 [[files]]
@@ -331,6 +361,11 @@ hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
+file = "mods/l_enders-cataclysm.pw.toml"
+hash = "f262b49b1038ef9f67704e0629da6aafa84cf4f760273589f5d73530ca5d74b5"
+metafile = true
+
+[[files]]
 file = "mods/larion-worldgen.pw.toml"
 hash = "40a40e76f375a3115baf0845312e650d0b87d246d5ebb04e2c9f8afabe7d4d24"
 metafile = true
@@ -338,6 +373,11 @@ metafile = true
 [[files]]
 file = "mods/legendary-monsters.pw.toml"
 hash = "5c4e00cc93b6cf4e37b98295186fb708aab0bcbd2c764579c1c0e22c8910330f"
+metafile = true
+
+[[files]]
+file = "mods/lionfish-api.pw.toml"
+hash = "64acab1580ca6edd8b1dd185e914aeee7aa551a88a7cd7f0f9370a82aaadfef6"
 metafile = true
 
 [[files]]
@@ -401,6 +441,11 @@ hash = "5a59ebe515dbf2b637ac23bedeb33e545675668a0a454c5d6edd4d207a458844"
 metafile = true
 
 [[files]]
+file = "mods/omnidirectional-movement.pw.toml"
+hash = "3202106899f27ce6fad77267499838cd418af340cbb4948f7e2de1408a77eee3"
+metafile = true
+
+[[files]]
 file = "mods/ore-vein-miner.pw.toml"
 hash = "9cfd085d29e433e5e0dbaae108ec33d733b0fb0bca3e72c0b554de59468f7a95"
 metafile = true
@@ -447,7 +492,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
 
 [[files]]

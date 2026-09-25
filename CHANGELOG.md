@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.5 - Accurate dynamic distant terrain
+
+- Re-enabled Distant Horizons generation using `INTERNAL_SERVER` and `CHUNKS_ONLY`.
+- Distant terrain is now generated and saved as real Minecraft chunks through WWOO, preventing the synthetic terrain mismatch while preserving unexplored vistas.
+- Chunky remains available for manual server maintenance but should not run while Distant Horizons is generating terrain.
+
 ## 0.1.4 - Distant Horizons compatibility defaults
 
 - Disabled Distant Horizons' distant terrain generator so WWOO terrain is only processed from real, generated chunks.

@@ -1,4 +1,5 @@
 [common.worldGenerator]
-	# WWOO is incompatible with Distant Horizons' synthetic distant-world generator.
-	# LODs are still created for chunks that Minecraft or Chunky has actually generated.
-	generatorPlan = "DISABLED"
+	# Ask Minecraft's real server generator (including WWOO) to create and save chunks.
+	# CHUNKS_ONLY avoids an approximate surface pass, keeping distant and nearby terrain consistent.
+	chunkGeneratorMode = "INTERNAL_SERVER"
+	generatorPlan = "CHUNKS_ONLY"

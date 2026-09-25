@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "6f8576862ebb49931f47be8a5337fcf548348882c013e281274bc760bf16f5f4"
+hash = "d38ed20fbfaae4afec75b958c4804936e56b0ed043e028c374764982824abe12"
 
 [[files]]
 file = "mods/alterna.pw.toml"

@@ -12,6 +12,8 @@ Minecraft 1.21.1 / NeoForge 21.1.251 modpack and dedicated-server definition man
 
 ## Common commands
 
+Double-click `start.bat` to synchronize the pack and start the dedicated server.
+
 ```powershell
 .\.tools\packwiz.exe refresh
 .\.tools\packwiz.exe list

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3 - Field Guide dependency fix
+
+- Pinned Item Descriptions `2.8.0+1.21.1-neoforge`, replacing the incorrectly selected `1.11+1.21` build required by Field Guide.
+
 ## 0.1.2 - Client animation update
 
 - Replaced Better Third Person with Leawind's Third Person and its Perspective API dependency.

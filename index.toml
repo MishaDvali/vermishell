@@ -337,7 +337,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-descriptions.pw.toml"
-hash = "b902e2a8d9a070dec6136632ea901f2bcb7185c41554d08128f377a1825ed495"
+hash = "e5347f876614ddeaff10c2e7417f946ac5ef56c56acf7838d166d1cd5a8d9d1c"
 metafile = true
 
 [[files]]
@@ -614,3 +614,7 @@ metafile = true
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
 metafile = true
+
+[[files]]
+file = "start.bat"
+hash = "4356185fac268a1fbb479e878e5b993043a5e3015b99b6bf453eec426a7212a2"

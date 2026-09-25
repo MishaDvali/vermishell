@@ -1,0 +1,13 @@
+name = "Perspective API"
+filename = "perspective_api-1.5.0-beta+neoforge-1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/LIqveQm1/versions/qhO0B6a4/perspective_api-1.5.0-beta%2Bneoforge-1.21.jar"
+hash-format = "sha512"
+hash = "ae35996a735697e9e6faf0bed96b69bcba9f22fc9b20d1180d9b04d256c0707a911569e1b61c51beb0337333f5b4bbb21694ba7008420e493bae4b9d4f23d14c"
+
+[update]
+[update.modrinth]
+mod-id = "LIqveQm1"
+version = "qhO0B6a4"

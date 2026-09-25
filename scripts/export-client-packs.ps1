@@ -22,7 +22,13 @@ $clientFiles = @(
         } |
         ForEach-Object Name |
         Sort-Object
-)
+    Get-ChildItem -LiteralPath (Join-Path $projectRoot 'resourcepacks') -Filter '*.pw.toml' -ErrorAction SilentlyContinue |
+        Where-Object {
+            (Get-Content -LiteralPath $_.FullName | Select-String -Pattern '^side = "client"$' -Quiet)
+        } |
+        ForEach-Object { "resourcepacks/$($_.Name)" } |
+        Sort-Object
+) | Sort-Object
 
 $assigned = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
 foreach ($tier in $config.tiers) {
@@ -54,8 +60,9 @@ foreach ($tier in $config.tiers) {
             Copy-Item -Destination $workDir -Recurse -Force
 
         foreach ($file in $clientFiles) {
-            if (-not $included.Contains($file)) {
-                $target = Join-Path $workDir (Join-Path 'mods' $file)
+        if (-not $included.Contains($file)) {
+                $relative = if ($file -match '[/\\]') { $file } else { Join-Path 'mods' $file }
+                $target = Join-Path $workDir $relative
                 $resolvedParent = (Resolve-Path -LiteralPath (Split-Path -Parent $target)).Path
                 if (-not $resolvedParent.StartsWith($workDir, [StringComparison]::OrdinalIgnoreCase)) {
                     throw "Unsafe profile target: $target"

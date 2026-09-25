@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 - Client animation update
+
+- Replaced Better Third Person with Leawind's Third Person and its Perspective API dependency.
+- Added Fresh Animations with Entity Model Features and Entity Texture Features to the Immersive and Complete client editions.
+
 ## 0.1.1 - Combat, exploration, and rendering update
 
 - Replaced Better Combat with Epic Fight and added compatibility mappings for Cataclysm, Iron's Spells, Supplementaries, and Farmer's Delight.

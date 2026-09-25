@@ -45,13 +45,17 @@
       "displayName": "Immersive",
       "add": [
         "ambientsounds.pw.toml",
-        "better-third-person.pw.toml",
         "cameraoverhaul.pw.toml",
         "creativecore.pw.toml",
+        "entity-model-features.pw.toml",
+        "entitytexturefeatures.pw.toml",
         "first-person-model.pw.toml",
         "iris-flw-compat.pw.toml",
         "iris.pw.toml",
-        "not-enough-animations.pw.toml"
+        "leawind-third-person.pw.toml",
+        "not-enough-animations.pw.toml",
+        "perspective-api.pw.toml",
+        "resourcepacks/fresh-animations.pw.toml"
       ]
     },
     {

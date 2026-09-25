@@ -12,7 +12,7 @@
 - **Opposing Force**: the available 1.21.1 build is beta and requires Sinew, which is not published alongside it on Modrinth. Held out until that dependency chain is reproducible.
 - **Sleep Most**: no matching Modrinth project was found under that exact name.
 - **Cover Them in Armor**: the official project currently has Forge releases for Minecraft 1.20.1 and 1.19.2, but no Minecraft 1.21.1 NeoForge build. It is marked incompatible and excluded.
-- **Leawind's Third Person**: excluded because Better Third Person is already the selected third-person controller. Installing both would duplicate camera controls; swap them for testing rather than stacking them.
+- **Better Third Person**: replaced by Leawind's Third Person in 0.1.2. Do not install both because they duplicate third-person camera controls.
 - **Better Statistics Screen**, **Zoomify**, **Status Effect Bars**, **Paginated Advancements**, **Reacharound**, **More Cloud Layers**, **Presence Footsteps**, and **Punchy**: no compatible Minecraft 1.21.1 NeoForge release was found during the initial import.
 
 ## Pinned compatibility pairs

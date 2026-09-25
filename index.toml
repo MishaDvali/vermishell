@@ -46,11 +46,6 @@ hash = "66072270b6fc6d6caefc88ae9ae099ec80d32d1ceda02961b42a637daf1a55f5"
 metafile = true
 
 [[files]]
-file = "mods/better-third-person.pw.toml"
-hash = "e1f1588b18947699ddc9b4f7c5b5406c5559155b8cb52dcd0f203c07c31cd0b8"
-metafile = true
-
-[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
 metafile = true
@@ -206,8 +201,18 @@ hash = "b9244dca740d333c22f3425991fdd2fd40d3ae12384079a40a6fb7d4bca18a18"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "0ae06c97bf858f3941fd7369e34a71967e7a5c26c26b1cb7371a5be0f1842ecd"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "30d6875d934c57d5827f29f35ca77efc72a21df361ad3d578b93e7e137a39654"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "42731772f3bde6bc35c48ff39a0b16c24edfa245c42d2ca8c8abd11f57edf4e7"
 metafile = true
 
 [[files]]
@@ -371,6 +376,11 @@ hash = "40a40e76f375a3115baf0845312e650d0b87d246d5ebb04e2c9f8afabe7d4d24"
 metafile = true
 
 [[files]]
+file = "mods/leawind-third-person.pw.toml"
+hash = "e87ccfe914cb36a37dbd024e87cfe26f3b31aa36b99d803e80980ee9f0f4acf5"
+metafile = true
+
+[[files]]
 file = "mods/legendary-monsters.pw.toml"
 hash = "5c4e00cc93b6cf4e37b98295186fb708aab0bcbd2c764579c1c0e22c8910330f"
 metafile = true
@@ -453,6 +463,11 @@ metafile = true
 [[files]]
 file = "mods/packed-packs.pw.toml"
 hash = "69f5f0430b1ed9ae2c3a91ff079e7cdca13fa3db70e51d0df96a3aa8cf72f023"
+metafile = true
+
+[[files]]
+file = "mods/perspective-api.pw.toml"
+hash = "869deab686ef58673f66b8c10516a39c927c3ecaff30a5472340e7079353ab70"
 metafile = true
 
 [[files]]
@@ -593,4 +608,9 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
 hash = "9854b699d5a067c46ac99b1dedeeb529bff3fc18dd079e29b438c4cbf9725f68"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
 metafile = true

@@ -614,7 +614,3 @@ metafile = true
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
 metafile = true
-
-[[files]]
-file = "start.bat"
-hash = "4356185fac268a1fbb479e878e5b993043a5e3015b99b6bf453eec426a7212a2"

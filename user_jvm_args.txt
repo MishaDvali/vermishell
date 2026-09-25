@@ -1,0 +1,4 @@
+# Vermishell dedicated-server memory settings.
+# Edit these values, then restart the server.
+-Xms6G
+-Xmx8G

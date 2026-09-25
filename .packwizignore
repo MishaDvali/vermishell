@@ -8,6 +8,8 @@ profiles/
 .gitignore
 README.md
 CHANGELOG.md
+start.bat
+user_jvm_args.txt
 *.mrpack
 *.zip
 *.log

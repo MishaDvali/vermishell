@@ -13,6 +13,7 @@ Minecraft 1.21.1 / NeoForge 21.1.251 modpack and dedicated-server definition man
 ## Common commands
 
 Double-click `start.bat` to synchronize the pack and start the dedicated server.
+Server memory is configured in the root-level `user_jvm_args.txt`; startup copies it into the generated runtime automatically.
 
 ```powershell
 .\.tools\packwiz.exe refresh

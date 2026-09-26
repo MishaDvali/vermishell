@@ -3,6 +3,8 @@
 .packwiz-cache/
 *.mrpack
 *.zip
+!prism/
+!prism/Pasta-Prism.zip
 *.log
 dist/
 .idea/

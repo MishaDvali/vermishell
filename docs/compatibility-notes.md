@@ -41,5 +41,8 @@ Non-fatal warnings to revisit during gameplay testing:
 
 - Deeper and Darker: Spellbooks references a missing `darkermagic:whispers_staff` item in an enchantability tag.
 - Caverns & Chasms contributes armor-trim advancement criteria that do not match Minecraft's generated completion requirements.
-- Attract to Sound, Legendary Monsters, and Myths & Legends probe some client classes during dedicated-server mixin discovery; NeoForge rejected those client targets but continued successfully.
+- Attract to Sound and Myths & Legends probe some client classes during dedicated-server mixin discovery; NeoForge rejected those client targets but continued successfully.
+- Legendary Monsters was removed after its `StratlingEntity` structure placement triggered a world-generation threading exception on the live server.
+- Vouch is installed server-side to protect player names on the offline-mode server with `/register` and `/login`; its authentication database remains live server data and is not overwritten by deployment.
+- C2ME NeoForge is installed server-side as an experimental chunk-generation and I/O optimization. The live test must cover Sable/Create contraption assembly, disassembly, saving, and restart before treating this combination as stable.
 - Several world-generation mods report missing or placeholder tags/data-map entries. The world still generated, but structure, biome, and progression behavior should be checked before keeping a permanent world.

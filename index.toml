@@ -5,6 +5,18 @@ file = "config/DistantHorizons.toml"
 hash = "d38ed20fbfaae4afec75b958c4804936e56b0ed043e028c374764982824abe12"
 
 [[files]]
+file = "config/cameraoverhaul.toml"
+hash = "b668b0fe25c0109e7a4943f8246fa3444cc25913cac2e0a1bb6606e61362e1eb"
+
+[[files]]
+file = "config/epicfight-client.toml"
+hash = "f6fa3a5f699c9bd64ed4c3506ca99eb3848307c8cd4c5947bfb9e1281f94cc6c"
+
+[[files]]
+file = "config/streamsreflowing-common.toml"
+hash = "3562be6749d35e98c87f0fe4b892e1ae1e60b2a20abcfdf5b67e9666af792f51"
+
+[[files]]
 file = "mods/alterna.pw.toml"
 hash = "9dcee36837741650853e785cf348564dec97ef261bdddd30cf6e1120cdfefc33"
 metafile = true
@@ -80,6 +92,11 @@ hash = "c50696cd98b02ba03425574c7850443f5cba8e097af4b6ae1c8b42bd5316a8eb"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "bf29c048059a9d0b6ff0c4fd3bf6995ffc9637239fa428571a09cbe30cb2237a"
+metafile = true
+
+[[files]]
 file = "mods/cameraoverhaul.pw.toml"
 hash = "f74b4cf5a648f3b55d0319a559d2264f8bc34b8d760c8a60850e32ed2ab6da4d"
 metafile = true
@@ -117,11 +134,6 @@ metafile = true
 [[files]]
 file = "mods/collective.pw.toml"
 hash = "5ca02772cc6951185af8eb07ded5c7310c80f71498c5c513b1a8d5bd126822a9"
-metafile = true
-
-[[files]]
-file = "mods/confluence.pw.toml"
-hash = "a03543e29be7cac553b73b9d5e252a1913b394855a74a6b74c76ad1dd83fab78"
 metafile = true
 
 [[files]]
@@ -385,11 +397,6 @@ hash = "e87ccfe914cb36a37dbd024e87cfe26f3b31aa36b99d803e80980ee9f0f4acf5"
 metafile = true
 
 [[files]]
-file = "mods/legendary-monsters.pw.toml"
-hash = "5c4e00cc93b6cf4e37b98295186fb708aab0bcbd2c764579c1c0e22c8910330f"
-metafile = true
-
-[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "64acab1580ca6edd8b1dd185e914aeee7aa551a88a7cd7f0f9370a82aaadfef6"
 metafile = true
@@ -552,6 +559,11 @@ metafile = true
 [[files]]
 file = "mods/uranus.pw.toml"
 hash = "c16ee91eeb20999c83deedbf93ce3787bb9bfefad56abd242d90a94dc0534ca0"
+metafile = true
+
+[[files]]
+file = "mods/vouch.pw.toml"
+hash = "068b8a9d38ceb95e0a01755a4e1dda5fa93e91a1075edf39ad44940eaa198862"
 metafile = true
 
 [[files]]

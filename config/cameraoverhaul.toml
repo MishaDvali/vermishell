@@ -1,0 +1,68 @@
+# Shared Pasta client configuration, captured from the maintained Prism instance.
+configVersion = 3
+
+[general]
+	enabled = true
+	enableInThirdPerson = true
+	contextTransitionSmoothing = 0.1
+	turningRollAccumulation = 1.0
+	turningRollIntensity = 1.25
+	turningRollSmoothing = 1.0
+	cameraSwayIntensity = 0.6
+	cameraSwayFrequency = 0.16
+	cameraSwayFadeInDelay = 0.15
+	cameraSwayFadeInLength = 5.0
+	cameraSwayFadeOutLength = 0.75
+	screenShakesMaxIntensity = 2.5
+	screenShakesMaxFrequency = 6.0
+	explosionTrauma = 1.0
+	thunderTrauma = 0.05
+	handSwingTrauma = 0.03
+
+[walking]
+	strafingRollFactor = 10.0
+	forwardVelocityPitchFactor = 7.0
+	verticalVelocityPitchFactor = 2.5
+	horizontalVelocitySmoothingFactor = 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	cameraSmoothing = 0.0
+
+[sprinting]
+	strafingRollFactor = 12.5
+	forwardVelocityPitchFactor = 9.5
+	verticalVelocityPitchFactor = 2.5
+	horizontalVelocitySmoothingFactor = 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	cameraSmoothing = 0.6
+
+[swimming]
+	strafingRollFactor = -30.0
+	forwardVelocityPitchFactor = 21.0
+	verticalVelocityPitchFactor = 7.5
+	horizontalVelocitySmoothingFactor = 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	cameraSmoothing = 1.5
+
+[flying]
+	strafingRollFactor = -10.0
+	forwardVelocityPitchFactor = 7.0
+	verticalVelocityPitchFactor = 2.5
+	horizontalVelocitySmoothingFactor = 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	cameraSmoothing = 1.0
+
+[mounts]
+	strafingRollFactor = 20.0
+	forwardVelocityPitchFactor = 3.5
+	verticalVelocityPitchFactor = 2.5
+	horizontalVelocitySmoothingFactor = 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	cameraSmoothing = 1.0
+
+[vehicles]
+	strafingRollFactor = 5.0
+	forwardVelocityPitchFactor = 3.5
+	verticalVelocityPitchFactor = 5.0
+	horizontalVelocitySmoothingFactor = 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	cameraSmoothing = 0.0

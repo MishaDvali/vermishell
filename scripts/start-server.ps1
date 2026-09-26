@@ -44,8 +44,10 @@ if (-not (Test-Path -LiteralPath $eula) -or -not (Select-String -LiteralPath $eu
 
 Push-Location $serverDir
 try {
-    & $java.FullName "@$runtimeJvmArgs" "@$neoForgeArgs" nogui
-    if ($LASTEXITCODE -ne 0) { throw "Vermishell server exited with code $LASTEXITCODE." }
+    $proc = Start-Process -FilePath $java.FullName -ArgumentList "@$runtimeJvmArgs", "@$neoForgeArgs", "nogui" -PassThru -NoNewWindow
+    $proc.PriorityClass = 'High'
+    $proc.WaitForExit()
+    if ($proc.ExitCode -ne 0) { throw "Pasta server exited with code $($proc.ExitCode)." }
 } finally {
     Pop-Location
 }

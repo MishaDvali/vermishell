@@ -1,0 +1,5 @@
+# Pasta keeps Streams Reflowing on its low-cost live-generation preset.
+# Changing this affects only newly generated terrain and can create visible
+# stream seams where new chunks meet terrain generated with another preset.
+[performance]
+terrainAccuracyLevel = "LOW"

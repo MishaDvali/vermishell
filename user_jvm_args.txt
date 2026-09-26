@@ -1,6 +1,9 @@
-# Vermishell dedicated-server memory settings.
+# Pasta dedicated-server memory settings.
 # Edit these values, then restart the server.
--Xms6G
+
+-Xms8G
 -Xmx8G
 -XX:+UseZGC
 -XX:+ZGenerational
+-XX:+AlwaysPreTouch
+-XX:+DisableExplicitGC

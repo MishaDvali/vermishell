@@ -10,6 +10,7 @@ README.md
 CHANGELOG.md
 start.bat
 user_jvm_args.txt
+deploy-kinetic.bat
 *.mrpack
 *.zip
 *.log

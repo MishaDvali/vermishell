@@ -1,0 +1,55 @@
+# Shared Pasta client configuration, captured from the maintained Prism instance.
+access_token = ""
+refresh_token = ""
+provider = "NULL"
+
+[ingame]
+	show_target_indicator = true
+	health_bar_show_option = "HURT"
+	show_epicfight_attributes = true
+	target_outline_color = 0.0
+	mine_block_guide_option = "CROSSHAIR"
+	enable_target_entity_guide = true
+	blood_effects = true
+	use_compute_shader = false
+	use_persistent_buffer = false
+	ground_slams = true
+	max_hit_projectiles = 30
+	first_person_model = true
+	enable_player_vanilla_model = true
+	enable_cosmetics = true
+	enable_pov_action = true
+	long_press_count = 2
+	camera_auto_switch = false
+	key_conflict_resolve_scope = "INTERACTION"
+	preference_work = "ADAPTIVE"
+	camera_perspective_toggle_mode = "VANILLA"
+	combat_preferred_items = []
+	mining_preferred_items = []
+
+	[ingame.camera]
+		camera_mode = "ON_AIMING"
+		horizontal_location = -5
+		vertical_location = 0
+		zoom = 6
+		lock_on_quick_shift = true
+		lock_on_range = 20
+
+	[ingame.ui]
+		stamina_bar_x = 120
+		stamina_bar_y = 10
+		stamina_bar_x_base = "RIGHT"
+		stamina_bar_y_base = "BOTTOM"
+		weapon_innate_x = 42
+		weapon_innate_y = 48
+		weapon_innate_x_base = "RIGHT"
+		weapon_innate_y_base = "BOTTOM"
+		passives_x = 70
+		passives_y = 36
+		passives_x_base = "RIGHT"
+		passives_y_base = "BOTTOM"
+		passives_align_direction = "HORIZONTAL"
+		charging_bar_x = -119
+		charging_bar_y = 60
+		charging_bar_x_base = "CENTER"
+		charging_bar_y_base = "CENTER"

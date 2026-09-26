@@ -1,0 +1,6 @@
+{
+  "hostName": "your-kinetic-node.kineticpanel.net",
+  "port": 2022,
+  "userName": "your-kinetic-sftp-username",
+  "remoteRoot": "."
+}

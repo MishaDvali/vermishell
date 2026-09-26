@@ -1,8 +1,17 @@
+[CmdletBinding()]
+param(
+    [string]$ServerDirectory
+)
+
 $ErrorActionPreference = 'Stop'
 
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $toolsDir = Join-Path $projectRoot '.tools'
-$serverDir = Join-Path $projectRoot '.runtime\server'
+$serverDir = if ($ServerDirectory) {
+    [IO.Path]::GetFullPath($ServerDirectory)
+} else {
+    Join-Path $projectRoot '.runtime\server'
+}
 $packwiz = Join-Path $toolsDir 'packwiz.exe'
 $installer = Join-Path $toolsDir 'packwiz-installer-bootstrap.jar'
 $java = Get-ChildItem -LiteralPath (Join-Path $toolsDir 'jdk') -Recurse -Filter 'java.exe' |
@@ -40,4 +49,3 @@ try {
 } finally {
     if ($serve -and -not $serve.HasExited) { Stop-Process -Id $serve.Id }
 }
-

@@ -1,0 +1,13 @@
+name = "Vouch"
+filename = "vouch-neoforge-0.4.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/E4nhP7pz/versions/bLwVywso/vouch-neoforge-0.4.0.jar"
+hash-format = "sha512"
+hash = "4c0f73f6e2f1f60cef9469d3c4ca464c30cf5fb57b215b90c0764ac1e7274ef00a7916559fdaf10f8d9afd1b5c28a48c438914958b435ec360b106a5acb88214"
+
+[update]
+[update.modrinth]
+mod-id = "E4nhP7pz"
+version = "bLwVywso"

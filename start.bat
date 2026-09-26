@@ -4,11 +4,11 @@ setlocal
 set "VERMISHELL_ROOT=%~dp0"
 if exist "%VERMISHELL_ROOT%scripts\start-server.ps1" goto launch
 
-set "VERMISHELL_ROOT=C:\Users\mykha\OneDrive\Desktop\minecraft\servers\Vermishell\"
+set "VERMISHELL_ROOT=C:\Users\mykha\OneDrive\Desktop\minecraft\servers\Pasta\"
 if exist "%VERMISHELL_ROOT%scripts\start-server.ps1" goto launch
 
-echo Vermishell could not find scripts\start-server.ps1.
-echo Keep start.bat inside the Vermishell repository, or create a shortcut to it instead of copying it.
+echo Pasta could not find scripts\start-server.ps1.
+echo Keep start.bat inside the Pasta repository, or create a shortcut to it instead of copying it.
 pause
 exit /b 1
 
@@ -20,7 +20,7 @@ set "VERMISHELL_EXIT=%ERRORLEVEL%"
 
 if not "%VERMISHELL_EXIT%"=="0" (
     echo.
-    echo Vermishell stopped with exit code %VERMISHELL_EXIT%.
+    echo Pasta stopped with exit code %VERMISHELL_EXIT%.
     pause
 )
 

@@ -4,18 +4,18 @@ refresh_token = ""
 provider = "NULL"
 
 [ingame]
-	show_target_indicator = true
+	show_target_indicator = false
 	health_bar_show_option = "HURT"
 	show_epicfight_attributes = true
 	target_outline_color = 0.0
 	mine_block_guide_option = "CROSSHAIR"
-	enable_target_entity_guide = true
+	enable_target_entity_guide = false
 	blood_effects = true
 	use_compute_shader = false
 	use_persistent_buffer = false
 	ground_slams = true
 	max_hit_projectiles = 30
-	first_person_model = true
+	first_person_model = false
 	enable_player_vanilla_model = true
 	enable_cosmetics = true
 	enable_pov_action = true

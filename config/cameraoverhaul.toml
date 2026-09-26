@@ -6,7 +6,7 @@ configVersion = 3
 	enableInThirdPerson = true
 	contextTransitionSmoothing = 0.1
 	turningRollAccumulation = 1.0
-	turningRollIntensity = 1.25
+	turningRollIntensity = 0.0
 	turningRollSmoothing = 1.0
 	cameraSwayIntensity = 0.6
 	cameraSwayFrequency = 0.16
@@ -52,12 +52,12 @@ configVersion = 3
 	cameraSmoothing = 1.0
 
 [mounts]
-	strafingRollFactor = 20.0
-	forwardVelocityPitchFactor = 3.5
-	verticalVelocityPitchFactor = 2.5
-	horizontalVelocitySmoothingFactor = 1.0
-	verticalVelocitySmoothingFactor = 1.0
-	cameraSmoothing = 1.0
+	strafingRollFactor = 0.0
+	forwardVelocityPitchFactor = 0.0
+	verticalVelocityPitchFactor = 0.0
+	horizontalVelocitySmoothingFactor = 0.0
+	verticalVelocitySmoothingFactor = 0.0
+	cameraSmoothing = 0.0
 
 [vehicles]
 	strafingRollFactor = 5.0

@@ -6,15 +6,15 @@ hash = "d38ed20fbfaae4afec75b958c4804936e56b0ed043e028c374764982824abe12"
 
 [[files]]
 file = "config/cameraoverhaul.toml"
-hash = "b668b0fe25c0109e7a4943f8246fa3444cc25913cac2e0a1bb6606e61362e1eb"
+hash = "77ca000edb32b69548888d970fcf7cc41234e608049c552a939be16d5732da15"
 
 [[files]]
 file = "config/epicfight-client.toml"
-hash = "f6fa3a5f699c9bd64ed4c3506ca99eb3848307c8cd4c5947bfb9e1281f94cc6c"
+hash = "83cbe57e3792e745625d0407575ccc27ff85ec73266ee2621f9374a303699082"
 
 [[files]]
 file = "config/streamsreflowing-common.toml"
-hash = "3562be6749d35e98c87f0fe4b892e1ae1e60b2a20abcfdf5b67e9666af792f51"
+hash = "110a444367effe992535df7999d17488ebeec4f7883ac91deaa701a2e110d9fc"
 
 [[files]]
 file = "mods/alterna.pw.toml"

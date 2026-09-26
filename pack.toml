@@ -1,12 +1,12 @@
 name = "Pasta"
 author = "Mykhailo Dvali"
-version = "0.1.6"
+version = "0.1.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8e350012011c6bd72bcb514e91285ac11239f6dc32287e8c033e06fc199d4ab9"
+hash = "407dc9101d9ba1c6e19f6bb002a11da80a27682e318cedc91c0e9f95e7fd4b82"
 
 [versions]
 minecraft = "1.21.1"

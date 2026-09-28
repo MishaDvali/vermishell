@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.11 - Improved spyglass zoom
+
+- Added Spyglass Improvements `1.5.7` for adjustable scroll-wheel zoom, quick spyglass access, and configurable overlays.
+- Kept the mod on both client and server so its Curios-backed spyglass access works consistently in multiplayer.
+- Field Guide continues to use the same vanilla spyglass for scanning discoveries.
+
 ## 0.1.10 - Restore First-person Model
 
 - Restored the client-only First-person Model `2.7.2` alongside Epic Fight Through Your Eyes.

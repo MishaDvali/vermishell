@@ -537,6 +537,11 @@ hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
 
 [[files]]
+file = "mods/spyglass-improvements.pw.toml"
+hash = "1c8e47bd37ddadc49a12ba32c07e1e9cbd80f2edcbd2f54507316026e87a2c92"
+metafile = true
+
+[[files]]
 file = "mods/stormies-spiders.pw.toml"
 hash = "7eb4975c58555111a7ddbc2d01b5d55a51585bf55b0145a6de1b6d90ef1a056c"
 metafile = true

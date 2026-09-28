@@ -10,7 +10,7 @@ hash = "77ca000edb32b69548888d970fcf7cc41234e608049c552a939be16d5732da15"
 
 [[files]]
 file = "config/epicfight-client.toml"
-hash = "83cbe57e3792e745625d0407575ccc27ff85ec73266ee2621f9374a303699082"
+hash = "0cc13155ec472f67166e5fb76055b1fa8af9fb2ccfc0e1ce0855b51a091f14b6"
 
 [[files]]
 file = "config/streamsreflowing-common.toml"
@@ -237,6 +237,11 @@ hash = "8f37f2db270c1256e91395300d301ce0a31bb079bec24800bb476d08498b870e"
 metafile = true
 
 [[files]]
+file = "mods/epic-fight-through-your-eyes.pw.toml"
+hash = "7d35581b82a668a95def1e6f0e5ceeff84779d42f5fc847519834dd89bed22bd"
+metafile = true
+
+[[files]]
 file = "mods/epic-fight-weapons-compat.pw.toml"
 hash = "3fe7eadb7db5ba61b3f7a9c1618d2eddde006baa8e803576c27babc5c8fefb16"
 metafile = true
@@ -269,11 +274,6 @@ metafile = true
 [[files]]
 file = "mods/field-guide.pw.toml"
 hash = "31d4a64fbb94657d32294c27a494182ae7f4476ee19e579982c4cd9cd89ebb18"
-metafile = true
-
-[[files]]
-file = "mods/first-person-model.pw.toml"
-hash = "4188848019233432861e98a5cc72aebed8c68a8a0909007967ab11827f8a6508"
 metafile = true
 
 [[files]]
@@ -414,6 +414,11 @@ metafile = true
 [[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "676da3647af911d7a8bc0780dc74a1912f71a6a5c42fbe68d8f06ce75bd094f4"
+metafile = true
+
+[[files]]
+file = "mods/mod-menu-neoforge-edition.pw.toml"
+hash = "092e47346a288a93eb69d50b235eb4b5a1ea449599045b8abd037388943bca0a"
 metafile = true
 
 [[files]]

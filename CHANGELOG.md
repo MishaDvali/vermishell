@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.9 - Animated first-person combat test
+
+- Replaced First-person Model with Epic Fight Through Your Eyes `1.2.1`.
+- Added Mod Menu (NeoForge Edition) `1.0.2` on clients for the addon's configuration screen.
+- Enabled Epic Fight's animated first-person model so attack poses remain visible.
+- Kept Camera Overhaul installed for compatibility testing; disable it first if the camera effects stack or shake.
+
 ## 0.1.8 - Proximity voice chat
 
 - Added Simple Voice Chat `2.6.21` for NeoForge 1.21.1 to clients and the dedicated server.

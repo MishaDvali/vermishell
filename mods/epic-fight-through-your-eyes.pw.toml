@@ -1,0 +1,13 @@
+name = "Epic Fight Through Your Eyes"
+filename = "epic-fight-through-your-eyes-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e31d8c6888b4610e360a4fa56b19e4174bf03ee8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8945437
+project-id = 1695227

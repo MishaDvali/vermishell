@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.8 - Proximity voice chat
+
+- Added Simple Voice Chat `2.6.21` for NeoForge 1.21.1 to clients and the dedicated server.
+- Kinetic uses a separately allocated UDP port for voice traffic; its host-specific port remains in the live server configuration rather than the public pack.
+
 ## 0.1.5 - Accurate dynamic distant terrain
 
 - Re-enabled Distant Horizons generation using `INTERNAL_SERVER` and `CHUNKS_ONLY`.

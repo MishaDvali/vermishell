@@ -54,6 +54,11 @@ Deployment builds a clean server-only Packwiz installation, uploads it to a
 temporary directory, and swaps it into place. The previous remote mod set is
 retained as `mods.pasta-previous` for rollback.
 
+Simple Voice Chat requires a separately allocated UDP port on Kinetic. Its
+host-specific value belongs in the live server's
+`config/voicechat/voicechat-server.properties` and is intentionally not
+managed by the Packwiz deployment.
+
 ## Client release
 
 There is one complete client edition. Run `scripts/export-client-packs.ps1` to

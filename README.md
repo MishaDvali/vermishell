@@ -75,9 +75,11 @@ Each later export moves the previous `main` release into a numbered emergency sn
 
 Friends can import the current `.mrpack` using Prism Launcher's
 **Add Instance -> Import** or the Modrinth App. For launchers without `.mrpack`
-support, run `scripts/materialize-client-folders.ps1`. It creates the ordinary
+support, the same export command automatically creates the ordinary
 mods-and-config folder `.runtime/client-folders/main/` and moves the previous
-folder into `.runtime/client-folders/legacy/<number>/`.
+folder into `.runtime/client-folders/legacy/<number>/`. Running
+`scripts/materialize-client-folders.ps1` separately is only useful when you
+need to rebuild that folder without creating a new release export.
 
 ### Automatic updates in Prism Launcher
 

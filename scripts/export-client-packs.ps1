@@ -65,6 +65,12 @@ try {
 & (Join-Path $PSScriptRoot 'export-prism-instance.ps1') -OutputDirectory $mainDir
 if ($LASTEXITCODE -ne 0) { throw 'Prism instance export failed.' }
 
+# Keep the ordinary launcher folder in lockstep with every exported release.
+# This prevents TLauncher/manual-install files from silently remaining on an
+# older pack version when only the main export command is run.
+& (Join-Path $PSScriptRoot 'materialize-client-folders.ps1') -PacksDirectory $mainDir
+if ($LASTEXITCODE -ne 0) { throw 'Client folder materialization failed.' }
+
 $prismInstructions = @(
     'Pasta automatic updates for Prism Launcher',
     '',
@@ -80,4 +86,5 @@ Set-Content -LiteralPath (Join-Path $mainDir 'PRISM-AUTO-UPDATE.txt') -Value $pr
 
 Write-Host "Main client pack: $output"
 Write-Host "Prism import: $(Join-Path $mainDir 'Pasta-Prism.zip')"
+Write-Host "Manual launcher folder: $(Join-Path $projectRoot '.runtime\client-folders\main')"
 Write-Host "Previous releases: $legacyDir"

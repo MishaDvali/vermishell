@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.10 - Restore First-person Model
+
+- Restored the client-only First-person Model `2.7.2` alongside Epic Fight Through Your Eyes.
+- Players can keep experimenting with either first-person body renderer; avoid enabling both renderers simultaneously if they produce duplicate limbs or camera clipping.
+
 ## 0.1.9 - Animated first-person combat test
 
 - Replaced First-person Model with Epic Fight Through Your Eyes `1.2.1`.
